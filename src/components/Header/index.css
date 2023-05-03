@@ -1,0 +1,14 @@
+/* 头部的样式 */
+.todo-header{
+    text-align: center;
+}
+.todo-header input{
+    margin:0 auto;
+    border-radius: 3px;
+    border:1px solid #ddd;
+    width:550px;
+    height: 20px;
+    padding: 5px;
+    font-size: 14px;
+    margin: 0 auto;
+}
