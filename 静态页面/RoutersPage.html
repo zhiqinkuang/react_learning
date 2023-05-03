@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 去除列表样式 */
+        ul,ol {
+            list-style: none;
+        }
+
+        /* a 标签去除下划线 */
+        a {
+            text-decoration: none;
+        }
+
+        /* 设置页面默认字体 */
+        body {
+            background-color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .container{
+         width: 1000px;
+         margin: 50px auto;
+         background-color: #fff;
+        } 
+        /* 头部标签 */
+        .header{
+          width: 800px;
+          margin: 20px;
+          height: 50px;
+          background-color: #ddd;
+          margin: auto;
+          text-align: center;
+          line-height: 50px;
+          border: 2px solid #ddd;
+          border-radius: 3px;
+        }
+        /* 内容区的样式 */
+        .mainbox{
+            width: 1000px;
+            height: 300px;
+            margin-top: 50px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+        /* 侧边栏 */
+        .slidebox{
+            width: 100px;
+            height: 200px;
+            border:2px solid #ddd;
+            border-radius: 5px;
+            margin:10px;
+            float: left;
+        }
+        .slidebox a{
+            width: 100px;
+            margin: 2px 0;
+            height: 20px;
+            text-align: center;
+            display:block;
+            background-color: skyblue;
+        }
+        .slidebox a:hover{
+            background-color: rgb(95, 191, 230);
+            cursor: pointer;
+        }
+       /* 中间的内容区域 */
+        .content{
+            width: 800px;
+            height: 200px; 
+            border:2px solid #ddd;
+            border-radius: 5px;
+            margin:10px;
+            float: left;
+        }
+        /* about 部分的样式 */
+        .about{
+            margin:10px auto;
+          
+        }
+        .about-nav,.search-nav{
+            width: 300px;
+            height: 22px;
+            border-bottom: 2px solid black;
+        }
+        .detail,.more,.message,.topics{
+            float: left;
+            width: 100px;
+            height: 20px;
+            line-height: 20px;
+            margin: 2px ;
+            text-align: center;
+            background-color: skyblue;
+        }
+        .detail:hover,.more:hover,.message:hover,.topics:hover{
+            background-color: rgb(61, 191, 243);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+           <h2 class="title">这是about组件</h2>
+        </div>
+        <div class="mainbox">
+            <div class="slidebox">
+                <a class="about">about</a>
+                <a class="search">search</a>
+            </div>
+            <div class="content">
+                <div class="about">
+                    <h2 class="aboutcontent">about的内容</h2>
+                    <ul class="about-nav">
+                        <li class="detail">Details</li>
+                        <li class="more">More</li>
+                    </ul>
+                    <ul class="detail-list">
+                        <li class="detail-item">detail1</li>
+                        <li class="detail-item">detail2</li>
+                    </ul>
+                    <ul class="more-list">
+                        <li class="detail-item">more1</li>
+                        <li class="detail-item">more2</li>
+                    </ul>
+                </div>
+               <div class="search">
+                   <h2 class="searchcontent">search的内容</h2>
+                   <ul class="search-nav">
+                    <li class="message">Message</li>
+                    <li class="topics">Topics</li>
+                </ul>
+                <ul class="message-list">
+                    <li class="message-item">message1</li>
+                    <li class="message-item">message2</li>
+                </ul>
+                <ul class="topics-list">
+                    <li class="topics-item">topics1</li>
+                    <li class="topics-item">topics2</li>
+                </ul>
+               </div>
+            </div>  
+        </div>
+      
+
+    </div>
+</body>
+</html>

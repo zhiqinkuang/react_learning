@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+      margin: 0;
+      padding: 0;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  /* 去除列表样式 */
+  ul,ol {
+      list-style: none;
   }
-  to {
-    transform: rotate(360deg);
+
+  /* a 标签去除下划线 */
+  a {
+      text-decoration: none;
   }
-}
+
+  /* 设置页面默认字体 */
+  body {
+      background-color: #fff;
+      font-family: Arial, sans-serif;
+  }
+
+  .container{
+   width: 1000px;
+   margin: 50px auto;
+   background-color: #fff;
+  } 
+
+  /* 内容区的样式 */
+  .mainbox{
+      width: 1000px;
+      height: 300px;
+      margin-top: 50px;
+      border: 2px solid #ddd;
+      border-radius: 5px;
+  }
+  /* 侧边栏 */
+  .slidebox{
+      width: 100px;
+      height: 200px;
+      border:2px solid #ddd;
+      border-radius: 5px;
+      margin:10px;
+      float: left;
+  }
+  .slidebox a{
+      width: 100px;
+      margin: 2px 0;
+      height: 20px;
+      text-align: center;
+      display:block;
+      background-color: skyblue;
+  }
+  .active{
+    background-color: #f40 !important;
+  }
+  .slidebox a:hover{
+      background-color: rgb(95, 191, 230);
+      cursor: pointer;
+  }
+ /* 中间的内容区域 */
+  .content{
+      width: 800px;
+      height: 200px; 
+      border:2px solid #ddd;
+      border-radius: 5px;
+      margin:10px;
+      float: left;
+  }

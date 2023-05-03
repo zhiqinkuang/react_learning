@@ -1,0 +1,28 @@
+.about{
+    margin:10px auto;
+  
+}
+.about-nav,.search-nav{
+    width: 300px;
+    height: 22px;
+    border-bottom: 2px solid black;
+}
+
+.detail,.more,.message,.topics{
+    float: left;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    margin: 2px ;
+    text-align: center;
+    background-color: skyblue;
+}
+.detail a,.more a,.message a,.topics a{
+    width: 100px;
+    height: 20px;
+    display: block;
+}
+.detail:hover,.more:hover,.message:hover,.topics:hover{
+    background-color: rgb(61, 191, 243);
+    cursor: pointer;
+}
