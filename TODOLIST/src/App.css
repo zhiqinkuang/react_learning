@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 去除列表样式 */
+ul,ol {
+    list-style: none;
+}
+
+/* a 标签去除下划线 */
+a {
+    text-decoration: none;
+}
+
+/* 设置页面默认字体 */
+body {
+    background-color: #ccc;
+    font-family: Arial, sans-serif;
+}
+
+.todo-container{
+ background-color: #fff;
+ width: 600px;
+ padding: 5px;
+ margin: 100px auto;
+ border-radius: 2px solid #ddd;
+ border-radius: 5px;
+}
+.todo-wrap{
+  background-color: #ddd;
+  padding: 15px;
+  border-radius: 2px solid #f40;
+  border-radius: 5px;
+}
+/* 头部的样式 */
+/* .todo-header{
+    text-align: center;
+}
+.todo-header input{
+    margin:0 auto;
+    border-radius: 3px;
+    border:1px solid #ddd;
+    width:550px;
+    height: 20px;
+    padding: 5px;
+    font-size: 14px;
+    margin: 0 auto;
+} */
+/* list和item */
+.btn{
+    display:none;
+    clear: both;
+    float: right;
+    color:#fff;
+    background-color: #da4f49;
+    border: 1px solid #bd362f;
+    border-radius: 3px;
+    padding: 1px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #bd362f;
+}
+.btnclearall{
+    display: block;
+    margin:2px 2px ;
+}
+/* .todo-list{
+ width: 550px;
+ padding: 5px;
+ margin: 0 auto;
+ background: #fff;
+ border: 2px solid #fff;
+}
+.todo-item{
+    padding: 0 2px;
+    width: 550px;
+    height:20px;
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 2px;
+    border:1px solid #ddd;
+    margin: 2px auto;
+} */

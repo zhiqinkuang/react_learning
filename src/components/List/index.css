@@ -1,8 +1,11 @@
-.todo-list{
-    width: 550px;
-    padding: 5px;
-    margin: 0 auto;
-    background: #fff;
-    border: 2px solid #fff;
-   }
-  
+ /* list 组件 */
+ .list-box{
+    width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }

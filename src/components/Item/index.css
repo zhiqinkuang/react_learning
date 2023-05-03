@@ -1,12 +1,18 @@
-/* list和item */
-.todo-item{
-    padding: 0 2px;
-    width: 550px;
-    height:20px;
-    font-size: 15px;
-    background-color: #fff;
-    border-radius: 2px;
-    border:1px solid #ddd;
-    margin: 2px auto;
-    overflow: hidden;
-}
+
+      /* item组件 */
+      .item{
+        width: 155px;
+        height: 150px;
+        border: 1px solid #ddd;
+         border-radius: 5px;
+         margin: 1px;
+         text-align: center;
+      }
+      .item img{
+        width: 150px;
+        height: 100px;
+      }
+      .item a{
+        font-size: 20px;
+        color: pink;
+      }
